@@ -1,9 +1,0 @@
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-from numpy import linalg as la
-from scipy.optimize import curve_fit
-df = pd.read_csv('../data/studied/examscore.csv')
-t = np.array(df['studied'])
-k = np.array(df['examscore'])
-print (t,k)
